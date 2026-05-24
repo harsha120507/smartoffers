@@ -1,0 +1,44 @@
+# ============================================================
+# SmartOffer - Root .gitignore
+# ============================================================
+
+# ---- .NET / ASP.NET Core ----
+**/bin/
+**/obj/
+*.user
+*.suo
+.vs/
+*.DotSettings.user
+
+# Sensitive config — use appsettings.Development.json or environment variables
+SmartOffer.API/appsettings.json
+SmartOffer.API/appsettings.Development.json
+SmartOffer.API/appsettings.*.json
+!SmartOffer.API/appsettings.example.json
+
+# EF Core migrations SQLite temp db
+*.db
+*.db-shm
+*.db-wal
+
+# ---- Node / React / Vite ----
+**/node_modules/
+**/dist/
+**/.vite/
+**/.cache/
+
+# Secrets — use .env.example as a template
+SmartOffer.Web/.env
+SmartOffer.Web/.env.local
+SmartOffer.Web/.env.*.local
+!SmartOffer.Web/.env.example
+
+# ---- macOS ----
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# ---- IDE ----
+.idea/
+.vscode/settings.json
+*.swp
