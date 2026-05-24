@@ -128,11 +128,4 @@ hack/
 
 ---
 
-## 📸 Screenshots
 
-> _Add screenshots of the Deals Portal, Offer Detail with carousel, Booking Ticket, and Admin Dashboard here._
-
----
-
-## 📄 License
-MIT
